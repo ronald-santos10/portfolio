@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import About from "./components/About";
-import Stacks from "./components/Stacks"
+import Stacks from "./components/Stacks";
+import MyProjects from "./components/MyProjects";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header/>
       <About/>
       <Stacks/>
+      <MyProjects/>
     </main>
   );
 }
