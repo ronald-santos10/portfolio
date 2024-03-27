@@ -1,0 +1,59 @@
+.stacks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    gap: 18px;
+
+    h2 {
+        color: var(--text-secundary);
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .list {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .item {
+        width: 37px;
+        cursor: pointer;
+        transition: all 1s;
+    }
+
+    .item:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    @media (min-width: 786px) {
+
+        margin: 100px 0px;
+
+        h2 {
+            align-self: flex-start;
+            width: 100%;
+            text-align: left;
+            font-size: 32px;;
+        }
+
+        .list {
+            width: 100%;
+            align-self: flex-start;
+            justify-content: left;
+            gap: 40px;
+            
+        }
+
+        .item {
+            width: 70px;
+            height: auto;
+        }
+    }
+}

@@ -43,17 +43,19 @@
         font-weight: 700;
         padding: 10px 12px;
         cursor: pointer;
+        transition: all 1s;
     }
 
     button:hover {
         background: var(--text-secundary);
         color: var(--text-primary);
-        transition: all 0.5s ease-out;
+        -webkit-filter: blur(0.5px);
+        filter: blur(0.5px);
     }
 
     @media (min-width: 786px) {
         flex-direction: row-reverse;
-        margin: 100px 0px;
+        margin: 80px 0px;
 
         .informations {
             width: 70%;

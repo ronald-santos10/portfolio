@@ -23,10 +23,10 @@
         font-style: normal;
         font-weight: 700;
         cursor: pointer;
+        transition: all 0.5s;
     }
     li:hover {
         color: var(--text-primary);
-        transition: all 0.5s ease-out;
     }
 
     button {
