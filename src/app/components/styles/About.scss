@@ -1,0 +1,88 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    gap: 18px;
+
+    .photo {
+        width: 150px;
+        height: auto;
+    }
+
+    .informations {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+
+    h1 {
+        color: var(--text-secundary);
+        width: 70%;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 100;
+    }
+
+    p {
+        color: var(--text-secundary);
+        text-align: justify;
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 18px;
+    }
+
+    button {
+        border-radius: 5px;
+        background: var(--text-primary);
+        color: var(--text-secundary);
+        font-size: 12px;
+        font-weight: 700;
+        padding: 10px 12px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: var(--text-secundary);
+        color: var(--text-primary);
+        transition: all 0.5s ease-out;
+    }
+
+    @media (min-width: 786px) {
+        flex-direction: row-reverse;
+        margin: 100px 0px;
+
+        .informations {
+            width: 70%;
+            align-items: start;
+            gap: 25px;
+        }
+
+        h1 {
+            width: 50%;
+            font-size: 64px;
+            text-align: left;
+        }
+
+        p {
+            width: 85%;
+            font-size: 22px;
+            line-height: normal;
+        }
+
+        .photo {
+            width: 30%;
+            height: auto;
+        }
+
+        button {
+            border-radius: 10px;
+            font-size: 20px;
+            padding: 20px 40px;
+        }
+    }
+
+}
