@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import whatsapp from './images/contacts/whatsapp.svg';
-import instagram from './images/contacts/instagram.svg';
-import email from './images/contacts/email.svg';
-import linkedin from './images/contacts/linkedin.svg';
-import github from './images/contacts/github.svg';
+import whatsapp from '../../../public/contacts/whatsapp.svg';
+import instagram from '../../../public/contacts/instagram.svg';
+import email from '../../../public/contacts/email.svg';
+import linkedin from '../../../public/contacts/linkedin.svg';
+import github from '../../../public/contacts/github.svg';
 import './styles/Contact.scss'
 
 function Contact(){

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from './images/logo.svg'
+import logo from '../../../public/logo.svg'
 import './styles/Header.scss'
 
 function Header(){
