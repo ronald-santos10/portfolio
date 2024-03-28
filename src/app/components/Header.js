@@ -5,13 +5,13 @@ import './styles/Header.scss'
 function Header(){
     return(
         <div className='header'>
-            <Image src={logo} alt='Logo Ronald Santos' className='logo'/>
+            <a href='/'><Image src={logo} alt='Logo Ronald Santos' className='logo' priority={true}/></a>
             <nav>
                 <ul>
-                    <li>Sobre</li>
-                    <li>Skills</li>
-                    <li>Projetos</li>
-                    <li>Contatos</li>
+                <li><a href="#about-section">Sobre</a></li>
+                <li><a href="#stacks-section">Stacks</a></li>
+                <li><a href="#projects-section">Projetos</a></li>
+                <li><a href="#contact-section">Contato</a></li>
                 </ul>
             </nav>
         </div>

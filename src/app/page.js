@@ -4,6 +4,8 @@ import Stacks from "./components/Stacks";
 import MyProjects from "./components/MyProjects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer"
+import './page.scss'
+import './ScrollBar.scss'
 
 export default function Home() {
   return (

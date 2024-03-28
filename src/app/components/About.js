@@ -4,12 +4,12 @@ import './styles/About.scss'
 
 function About(){
     return(
-        <div className='about'>
+        <div className='about' id="about-section">
             <Image src={photo} alt='Foto de Ronald' className='photo'/>
             <div className='informations'>
                 <h1 className='title'>Olá, me chamo<strong className='bold'> Ronald Santos</strong></h1>
-                <p className='description'>Estudante em desenvolvimento Front-End, com um forte interesse em JavaScript, TypeScript, React e React Native. Tenho investido meu tempo livre em projetos práticos e em cursos online para aprimorar minhas habilidades e aplicar esse conhecimento em projetos reais, além de estar comprometido em me manter atualizado com as últimas tecnologias e melhores práticas do setor.</p>
-                <button>Vamos conversar?</button>
+                <p className='description'>Natural de Paripiranga-BA, tenho 22 anos e sou um desenvolvedor Front-end que tem como foco a utilização das mais atuais stacks e tecnologias do mercado. Busco fonte de conhecimento em Javascript, React, React Native e Nextjs, além das stacks para CSS. Estou empolgado em poder contribuir para a evolução no desenvolvimento. Gosto muito de aprender e mais ainda colocar em prática, que tal ver alguns dos meus projetos?</p>
+                <button><a href="#projects-section">Ver Projetos</a></button>
             </div>
         </div>
     )

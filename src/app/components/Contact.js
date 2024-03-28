@@ -8,7 +8,7 @@ import './styles/Contact.scss'
 
 function Contact(){
     return(
-        <div className='contact'>
+        <div className='contact'  id="contact-section">
             <div className='box'>
                <h2>Vamos<strong className='bold'>conversar?</strong></h2>
                 <p>Aqui estão meus contatos e minhas redes sociais, estou sempre disposto a conversar!</p>

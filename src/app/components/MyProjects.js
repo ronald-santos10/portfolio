@@ -3,11 +3,11 @@ import './styles/MyProjects.scss'
 
 function MyProjects(){
     return(
-        <div className='projects'>
+        <div className='projects'  id="projects-section">
             <ul className='projectlist'>
                 {data.map(item => (
                 <li key={item.id}>
-                    <img src={item.image}/>
+                    <img src={item.image} alt="Foto de Ronald"/>
                     <div className='info'>
                         <h2>{item.title}</h2>
                         <p>{item.description}</p>

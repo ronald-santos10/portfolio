@@ -1,0 +1,12 @@
+/* scrollbar.css */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #101010;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--text-primary);
+  }

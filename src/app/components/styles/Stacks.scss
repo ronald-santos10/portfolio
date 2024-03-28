@@ -17,7 +17,6 @@
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
         gap: 10px;
     }
 
@@ -28,24 +27,25 @@
     }
 
     .item:hover {
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
+        -webkit-filter: blur(1px);
+        filter: blur(1px);
     }
 
-    @media (min-width: 786px) {
+    @media (width> 1024px) {
 
-        margin: 100px 0px;
+        margin-top: 50px;
+        margin-bottom: 100px;
 
         h2 {
             align-self: flex-start;
             width: 100%;
             text-align: left;
-            font-size: 32px;;
+            font-size: 30px;;
         }
 
         .list {
+            flex-wrap: nowrap;
             width: 100%;
-            align-self: flex-start;
             justify-content: left;
             gap: 40px;
             

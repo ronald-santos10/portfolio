@@ -14,7 +14,7 @@ import './styles/Stacks.scss';
 
 function Stacks(){
     return(
-        <div className='stacks'>
+        <div className='stacks'  id="stacks-section">
             <h2>Minhas <strong>Stacks</strong> e <strong>Tecnologias</strong></h2>
             <div className='list'>
                 <Image src={javascript} alt='logo javascript' className='item'/>
