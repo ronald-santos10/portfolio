@@ -1,14 +1,14 @@
 import Image from 'next/image'
-import javascript from '../../../public/logo javascript.svg';
-import typescript from '../../../public/logo Typescript.svg';
-import react from '../../../public/logo React.svg';
-import html from '../../../public/logo HTML.svg';
-import css from '../../../public/logo CSS.svg';
-import mysql from '../../../public/logo MySql.svg';
-import node from '../../../public/logo Node.svg';
-import next from '../../../public/logo Nextjs.svg';
-import sass from '../../../public/logo Sass.svg';
-import git from '../../../public/logo Git.svg';
+import javascript from './images/logo javascript.svg';
+import typescript from './images/logo Typescript.svg';
+import react from './images/logo React.svg';
+import html from './images/logo HTML.svg';
+import css from './images/logo CSS.svg';
+import mysql from './images/logo MySql.svg';
+import node from './images/logo Node.svg';
+import next from './images/logo Nextjs.svg';
+import sass from './images/logo Sass.svg';
+import git from './images/logo Git.svg';
 import './styles/Stacks.scss';
 
 

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import photo from '../../../public/photo.png'
+import photo from './images/photo.png'
 import './styles/About.scss'
 
 function About(){
