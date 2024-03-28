@@ -2,7 +2,7 @@ import Image from 'next/image'
 import logo from '../../../public/logo.svg'
 import './styles/Header.scss'
 
-function Header({ scrollTo }){
+function Header(){
     return(
         <div className='header'>
             <Image src={logo} alt='Logo Ronald Santos' className='logo'/>

@@ -3,6 +3,7 @@ import About from "./components/About";
 import Stacks from "./components/Stacks";
 import MyProjects from "./components/MyProjects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer"
 
 export default function Home() {
   return (
@@ -12,9 +13,7 @@ export default function Home() {
       <Stacks/>
       <MyProjects/>
       <Contact/>
-      <div className="footer">
-        <h3>Feito por <strong>Ronald Santos</strong></h3>
-      </div>
+      <Footer/>
     </main>
   );
 }
