@@ -14,8 +14,8 @@ function MyProjects(){
                         <p>{item.description}</p>
                         <h4>{item.stacks}</h4>
                         <div className='buttons'>
-                        <button className='btn-deploy'><a href={item.deploy} target="_blank">Visualizar</a></button>
-                        <button className='btn-github'><a href={item.github} target="_blank">Github</a></button>
+                        <a href={item.deploy} target="_blank"><button className='btn-deploy'>Visualizar</button></a>
+                        <a href={item.github} target="_blank"><button className='btn-github'>Github</button></a>
                     </div>
                     </div>
                     

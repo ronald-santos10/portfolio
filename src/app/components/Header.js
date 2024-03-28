@@ -8,10 +8,10 @@ function Header(){
             <a href='/'><Image src={logo} alt='Logo Ronald Santos' className='logo' priority={true}/></a>
             <nav>
                 <ul>
-                <li><a href="#about-section">Sobre</a></li>
-                <li><a href="#stacks-section">Stacks</a></li>
-                <li><a href="#projects-section">Projetos</a></li>
-                <li><a href="#contact-section">Contato</a></li>
+                <a href="#about-section"><li>Sobre</li></a>
+               <a href="#stacks-section"> <li>Stacks</li></a>
+                <a href="#projects-section"><li>Projetos</li></a>
+                <a href="#contact-section"><li>Contato</li></a>
                 </ul>
             </nav>
         </div>
