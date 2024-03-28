@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import data from './projectList.json'
 import './styles/MyProjects.scss'
 
@@ -7,7 +8,7 @@ function MyProjects(){
             <ul className='projectlist'>
                 {data.map(item => (
                 <li key={item.id}>
-                    <img src={item.image} alt="Foto de Ronald"/>
+                    <Image src={item.image} width={1000} height={1000} alt="Foto de Ronald"/>
                     <div className='info'>
                         <h2>{item.title}</h2>
                         <p>{item.description}</p>
