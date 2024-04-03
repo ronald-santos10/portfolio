@@ -1,7 +1,7 @@
 .contact {
   display: flex;
   flex-direction: column;
-  margin: 50px 0px;
+  margin: 30px 0px;
 
   .box {
     display: flex;
@@ -104,12 +104,12 @@
     .boxlink  {
       border-radius: 20px;
       border: 3px solid #262626;
-      width: 150px;
-      height: 150px;
+      width: 120px;
+      height: 120px;
     }
 
     .icon {
-      width: 120px;
+      width: 70px;
     }
   }
 }
