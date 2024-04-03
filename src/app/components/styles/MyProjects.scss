@@ -92,6 +92,7 @@
         transform: scale(1.1);
     }
 
+
     @media (width> 1024px) {
         padding: 50px 10px;
         margin: 100px 50px;
@@ -134,5 +135,41 @@
         }
     }
 
+    @media only screen and (min-width: 1025px) and (max-width: 1440px){
+        padding: 50px 5px;
+        margin: 80px 50px;
+        border-radius: 20px;
+        border: 4px solid #262626;
+
+        img {
+            border-radius: 20px;
+            width: 400px;
+            height: auto;
+        }
+
+        .info {
+            gap: 20px;
+        }
+
+        h2 {
+            font-size: 55px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        .buttons {
+            gap: 15px;;
+        }
+
+        .btn-deploy, .btn-github {
+            font-size: 18px;
+        }
+    }
 }
 
