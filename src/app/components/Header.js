@@ -1,10 +1,17 @@
+'use client'
 import Image from 'next/image'
 import logo from '../../../public/logo.svg'
 import './styles/Header.scss'
+import { motion } from "framer-motion";
 
 function Header(){
     return(
-        <div className='header'>
+        <motion.div
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.5 }}
+        className='header'
+        >
             <a href='/'><Image src={logo} alt='Logo Ronald Santos' className='logo' priority={true}/></a>
             <nav>
                 <ul>
@@ -14,7 +21,7 @@ function Header(){
                 <a href="#contact-section"><li>Contato</li></a>
                 </ul>
             </nav>
-        </div>
+        </motion.div>
     )
 }
 
